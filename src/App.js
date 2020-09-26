@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MainGame from './components/MainGame';
 import Header from './components/Header';
 import './App.css';
-import Badge from 'react-bootstrap/Badge';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import SampleBoard1 from './components/SampleBoard1';

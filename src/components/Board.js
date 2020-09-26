@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Slider from "@material-ui/core/Slider";
+// import Slider from "@material-ui/core/Slider";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
+
 
 import "../style.scss";
 
