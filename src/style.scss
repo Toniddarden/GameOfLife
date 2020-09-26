@@ -1,0 +1,84 @@
+$color: rgb(2, 1, 1);
+$background-color-body: rgb(255, 255, 255);
+$background-color-board: rgb(207, 174, 245);
+$alive-color: rgb(3, 2, 2);
+$alive-hover-color: rgb(197, 128, 180);
+$border-color: rgb(169, 169, 169);
+$cell-size: 15px;
+
+body {
+  color: $color;
+  background-color: $background-color-body;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+table {
+  margin: 0 auto 20px auto;
+  border-collapse: collapse;
+  background-color: $background-color-board
+}
+
+td {
+  width: $cell-size;
+  height: $cell-size;
+  border: 1px solid $border-color;
+}
+
+.alive {
+  background-color: $alive-color;
+
+  &:hover {
+    background-color: $alive-hover-color;
+  }
+}
+
+.dead {
+
+  &:hover {
+    background-color: $border-color;
+  }
+}
+
+button {
+  border: none;
+  border-radius: 40%;
+  outline: none;
+  margin: 20px 10px;
+  padding: 10px 15px;
+  font-size: 18px;  
+  color: rgb(10, 9, 9);
+  background-color: rgb(240, 236, 245);
+  cursor: pointer;
+
+  &:hover {
+    background-color:  rgb(0, 0, 0);
+    color:  rgb(240, 236, 245);
+  }
+}
+
+.flexRow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.mainControls,
+.lowerControls {
+  margin: auto;
+}
+
+.upperControls {
+  width:350px;
+}
+
+.lowerControls {
+  width:500px;
+}
+
+.mainControls, .Slider {
+  color: black;
+  
+}
+
