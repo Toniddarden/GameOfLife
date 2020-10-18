@@ -9,7 +9,7 @@ classic from 1970, a program that simulates a _cellular automaton_
 aspects of computer science and nature.
 
 
-[Live-Demo] https://practical-hermann-6f9f06.netlify.app/
+[Project](https://practical-hermann-6f9f06.netlify.app/)
 
 [Wikipedia Source](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns)
 
